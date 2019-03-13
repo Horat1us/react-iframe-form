@@ -1,5 +1,10 @@
 import * as React from "react";
-import { Config } from "./config";
+
+export interface Config {
+    data: { [ k: string ]: any; };
+    method: "GET" | "POST" | "get" | "post",
+    url: string;
+}
 
 export interface FormProps {
     name: string;

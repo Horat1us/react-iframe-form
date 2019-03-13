@@ -1,7 +1,6 @@
 import * as React from "react";
 
-import { Form } from "./Form";
-import { Config } from "./Config";
+import { Form, Config } from "./Form";
 
 export interface AsyncFormProps {
     name: string;
