@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React iFrame Form",
   "main": "build/index.js",
-  "typings": "build/src/index.d.ts",
+  "typings": "build/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production ./node_modules/.bin/webpack",
