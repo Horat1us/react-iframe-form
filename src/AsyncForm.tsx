@@ -12,7 +12,7 @@ export const AsyncForm: React.FunctionComponent<AsyncFormProps> = React.memo(({ 
 
     React.useEffect(() => {
         fetchConfig().then(setConfig);
-    });
+    }, []);
 
     if (!config) {
         return null;
