@@ -32,6 +32,7 @@ export const Form: React.FunctionComponent<FormProps> = React.memo(({ config, na
                         <input
                             type={"hidden"}
                             name={key}
+                            key={key}
                             value={
                                 ("string" === typeof config.data[ key ])
                                     ? config.data[ key ]
