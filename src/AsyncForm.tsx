@@ -11,8 +11,9 @@ export const AsyncForm: React.FunctionComponent<AsyncFormProps> = React.memo(({ 
     const [ config, setConfig ] = React.useState<Config | undefined>();
 
     React.useEffect(() => {
+        setConfig(undefined);
         fetchConfig().then(setConfig);
-    }, []);
+    }, [ fetchConfig, setConfig ]);
 
     if (!config) {
         return null;
