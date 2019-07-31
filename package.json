@@ -1,6 +1,6 @@
 {
   "name": "react-iframe-form",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React iFrame Form",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
